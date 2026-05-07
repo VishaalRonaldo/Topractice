@@ -8,7 +8,7 @@ class Animal
     }
 }
 
-class sheep : Animal
+class dog : Animal
 {
     public void Bark()
     {
@@ -16,13 +16,27 @@ class sheep : Animal
     }
 }
 
+class Cat : Animal
+{
+    public void Meow()
+    {
+        Console.WriteLine("The cat is meowing");
+    }
+}
+
+
 class Program
 {
     static void Main(string[] args)
     {
-        sheep cat = new sheep();
+        dog dogs = new dog();
 
+        dogs.Eat();   // Inherited from Animal
+        dogs.Bark();  // Dog's own method
+
+        Cat cat = new Cat();
         cat.Eat();   // Inherited from Animal
-        cat.Bark();  // Dog's own method
+        cat.Meow();  // Cat's own method
+        Console.WriteLine("Press any key to exit...");
     }
 }
