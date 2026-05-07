@@ -1,0 +1,32 @@
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Dependencies
+node_modules/
+*.egg-info/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.o
+*.so
+
+# Environment
+.env
+.env.local
+.venv
