@@ -20,9 +20,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Cat dog = new Cat();
+        Cat cat = new Cat();
 
-        dog.Eat();   // Inherited from Animal
-        dog.Bark();  // Dog's own method
+        cat.Eat();   // Inherited from Animal
+        cat.Bark();  // Dog's own method
     }
 }
