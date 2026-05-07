@@ -16,6 +16,15 @@ class Dog : Animal
     }
 }
 
+class Cat : Animal
+{
+    public void Meow()
+    {
+        Console.WriteLine("The cat is meowing");
+    }
+}
+
+
 class Program
 {
     static void Main(string[] args)
@@ -24,5 +33,10 @@ class Program
 
         dog.Eat();   // Inherited from Animal
         dog.Bark();  // Dog's own method
+
+        Cat cat = new Cat();
+        cat.Eat();   // Inherited from Animal
+        cat.Meow();  // Cat's own method
+        Console.WriteLine("Press any key to exit...");
     }
 }

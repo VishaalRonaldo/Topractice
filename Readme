@@ -1,0 +1,21 @@
+# Inheritance Code
+
+## Overview
+This project demonstrates object-oriented inheritance concepts in code. It shows how a derived class inherits properties and methods from a base class, how constructors are used, and how polymorphism can be applied.
+
+## Features
+- Base class with shared attributes and behavior
+- Derived class extending the base class
+- Overriding methods in the derived class
+- Constructor chaining
+- Example usage of inheritance in practice
+
+## Usage
+1. Instantiate the base class and derived class objects.
+2. Call shared methods from the base class.
+3. Call overridden methods from the derived class to observe polymorphic behavior.
+
+## Notes
+- Keep the base class focused on common behavior.
+- Use the derived class to extend or customize functionality.
+- This code is useful for learning inheritance structure and object-oriented design.
