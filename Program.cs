@@ -8,7 +8,7 @@ class Animal
     }
 }
 
-class Dog : Animal
+class Cat : Animal
 {
     public void Bark()
     {
@@ -20,7 +20,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Dog dog = new Dog();
+        Cat dog = new Cat();
 
         dog.Eat();   // Inherited from Animal
         dog.Bark();  // Dog's own method
