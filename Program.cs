@@ -24,6 +24,7 @@ class Cat : Animal
     }
 }
 
+
 class Program
 {
     static void Main(string[] args)
@@ -36,5 +37,6 @@ class Program
         Cat cat = new Cat();
         cat.Eat();   // Inherited from Animal
         cat.Meow();  // Cat's own method
+        Console.WriteLine("Press any key to exit...");
     }
 }
